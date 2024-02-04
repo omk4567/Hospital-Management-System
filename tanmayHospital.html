@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tanmay Hospital & Maternity Center </title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Raleway:wght@100;900&family=Roboto+Slab:wght@500&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Poppins:wght@300&family=Raleway:wght@100;900&family=Roboto+Slab:wght@500&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+               
+            display: inline-block;
+            margin: 1px 24px;    
+            font-family: 'Montserrat', sans-serif;     
+            font-weight: bold;
+            text-transform: capitalize;     
+            font-size: 17px;
+
+           
+       
+        }
+        li a button{
+            /* font-family: 'Montserrat', sans-serif;     
+            background-color: #04AA6D; 
+            border: none;
+            color: white;
+            padding: 20px;    
+        
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 30px;    */
+            font-family: 'Montserrat', sans-serif;   
+            background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;   
+        
+        }
+
+
+        li a:hover{     
+            color: black;    
+        }
+
+        header{
+            /* color: white; */
+            background-color: rgb(3, 46, 46); 
+            position: sticky;
+            top: 0;   
+        }
+        .hname{
+       
+            color: white;    
+           
+        
+            
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;   
+             
+            margin: 0;
+            font-weight: 500;
+            font-size: 4vw;
+            line-height: 1.1em;
+            margin: -67vh 53px;   
+            padding-left: 72px;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 2px solid white; /* Add a blinking cursor effect */
+          
+            animation: typewriter 7s infinite;                                                    
+             
+           
+        }
+
+      
+
+         @keyframes typewriter {
+         from {  
+             width: 0;                       
+         }
+         to {
+            width: 78%;     
+         }
+        }
+
+
+
+
+
+
+
+
+         
+
+    
+        .button:hover{
+            background-color: white;    
+            color: black;                  
+        }
+      
+      
+
+
+
+   
+        a{
+            color: white;            
+            text-decoration: none;    
+        }
+
+        button {
+  
+           border: none ;
+
+         }   
+        .ser{
+            display: inline-block;
+            margin: 23px 22px;
+            font-family: 'Montserrat', sans-serif;   
+            /* font-weight: bold;    */
+            text-transform: capitalize; 
+            font-size: 17px;
+            color: white;   
+            background-color: rgb(3, 46, 46);      
+            
+        }
+
+        .ser:hover{
+            color: black;         
+        }
+
+.services {
+  position: relative;
+  display: inline-block;
+ 
+  font-size: 17px;
+}
+
+.ser-content {
+  display: none;   
+  width: 100px;  
+  position: fixed;   
+  background-color:#04AA6D; /* Green */
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
+  z-index: 0;
+                
+}
+
+div.hname{
+    position: relative;
+    z-index: -1;
+}
+
+.ser-content a {     
+  color: white;
+  padding:  3px 20px;    
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;   
+  display: block;
+  font-size: 15px;
+   
+     
+
+}
+
+
+
+.ser-content a:hover {  
+    background-color:   #04AA6D; /* Green */      
+    color: black;    
+    transform: translateX(10px); 
+    /* Example: Move the item to the right when hovered */
+}
+
+
+
+.services:hover .ser-content {
+  display: block;
+}
+
+.services:hover .services {
+  background-color: #3e8e41;
+}
+
+.hbgimage img{
+    
+    position: relative;
+    z-index: -2;
+    height: 100vh;
+    width: 100vw;       
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>  <a href="#"> About Us </a> </li>
+                <li> <div class="services">
+                    <button class="ser"> Services &#9660;</button>
+                    <div class="ser-content">
+                    <a href="#"> Obstetric Services </a>
+                    <a href="#"> Gynecological Examinations </a>
+                    <a href="#"> Family Planning and Contraception </a>
+                    <a href="#"> Infertility Evaluation and Management </a>
+                    <a href="#"> Menstrual Disorders </a>
+                    <a href="#"> Menopause Management </a>
+                    <a href="#"> Treatment of Gynecological Conditions </a>
+                    <a href="#"> Gynecological Surgeries </a>
+                    <a href="#"> Screening and Management of Reproductive Cancers </a>
+                    <a href="#"> Sexual Health </a>
+                    <a href="#"> Patient Education </a>     
+                    </div>
+                  </div>
+                    </li>
+                
+                <li> <a href="#"> Doctors </a>  </li>
+                <li> <a href="#"> Knowledge Bank </a> </li>
+                <li> <a href="#"> Media </a></li>
+                <li> <a href="#"> Blog </a></li>
+                <li> <a href="#"> Contact Us </a></li>
+                <li> <a href="https://forms.gle/R587EVERbwJMy7Xt8" target="_blank"> <button class="button"> Book an Appointment </button></a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <div class="container">
+        <div class="hbgimage">
+            <img src="hospital3.jpg" >  
+        </div>
+      
+        <div class="hname">
+              Tanmay Hospital & Maternity Center    
+        </div>
+
+        
+    </div>
+</body>
+</html>
